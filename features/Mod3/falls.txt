@@ -1,0 +1,22 @@
+1. _9700FillingInTestDataBase.feature на шаге Given I open hyperlink "e1cib/list/Document.SalesOrder". 
+Ошибка вызова контекстного метода (ExecuteCommand), Ошибки возникли при проверке совокупности данных, Счет фактура на покупку 2
+
+2. _015450 check message output for SO when trying to create a purchase order/SC. 
+Ожидаемое количество строк в таблице <BasisesTree> равно 0, а фактическое количество - <2>.
+ 
+3. _0154149 create Cash statement на шаге And I go to line in "List" table. 
+Таблица формы с именем <List> не найдена.
+ 
+4. _092003 check serial lot number in the Retail return receipt на шаге And "ResultTable" spreadsheet document contains lines. 
+Таблица содержит не те строки, которые ожидались.
+
+5. _024027 cancel line in the SO and create SI на шаге And I click "Sales invoice" button. 
+Кнопка / команда с заголовком <Счет-фактура> не найдена.
+ 
+6. _024004 create SI using form link/unlink на шаге And I go to line in "BasisesTree" table. 
+Невозможно перейти на нужную строку в таблице <BasisesTree>, нужной строки нет в таблице.
+
+7. _2060018 check link form in the PI with 2 lines with the same items на шаге And I go to line in "BasisesTree" table. 
+Невозможно перейти на нужную строку в таблице <BasisesTree>, таблица пуста.
+
+        
